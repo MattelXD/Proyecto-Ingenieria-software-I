@@ -9,5 +9,4 @@ Requisitos funcionales
 Requisitos no funcionales
 -El sistema permite inicio de sesion meidante contraseña unica.
 -El sistema permite uso en sistemas moviles y computadores.
--El sistema permite una interfaz facil de leer.
 -El sistema no permite mas de una solicitud de un usuario en el mismo dia
