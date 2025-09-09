@@ -3,6 +3,8 @@ Requisitos funcionales
 -El sistema debe permitir la validación de estas solicitudes automáticamente según su ubicación geográfica y que se agrupen por zonas para formar rutas de recolección eficientes
 -El sistema debe permitir comunicacion entre recolectores y usuarios de la aplicación.
 -El sistema debe permitir comunicacion entre recolectores y coordinadores de ruta.
+-El sistema debe permitir a los recolectores reportar el resultado de cada retiro
+-El sistema debe permitir a los recolectores emitir comprobantes para los hogares
 
 
 
