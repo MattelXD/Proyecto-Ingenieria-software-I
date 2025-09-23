@@ -1,7 +1,7 @@
 Caso de Uso UC1: Ingresar solicitud de retiro
 Actor Principal: Usuario y Usuario Registrado
 Actores involucrados e intereses:
--Usuario: Ingresa una solicitud de retiro para los recolectores recojan su material de reciclaje.
+-Usuario: El usuario desea ingresar una solicitud de retiro para los recolectores recojan su material de reciclaje.
 
 Precondiciones: Usuario tiene material de reciclaje que quiere que sea retirado 
 Postcondiciones (garantias de exito): La solicitud de retiro es ingresada correctamente
@@ -10,8 +10,9 @@ Escenario principal de exito (Flujo basico):
 1. Usuario abre aplicacion
 2. Usuario elige la opcion de ingresar solicitud de retiro
 3. Usuario crea su solicitud de retiro
-4. Usuario ingresa su solicitud de retiro al sistema.
-5. Si no hay un problema en el sistema o no hay algun problema de conexion entonces la solicitud de retiro es ingresada correctamente.
+4. Si el usuario lo desea, puede agregar una nota o comentario en su solicitud de retiro
+5. Usuario ingresa su solicitud de retiro al sistema.
+6. La solicitud de retiro es ingresada correctamente.
 
 Extensiones (Flujos Alternativos):
 5 '. Si hay un problema en el sistema o hay algun problema de conexion:
@@ -21,22 +22,15 @@ Extensiones (Flujos Alternativos):
 Caso de Uso UC2: Agregar nota o comentario
 Actor Principal: Usuario y Usuario Registrado
 Actores involucrados e intereses:
--Usuario: quiere agregar un nota o comentario en su solicitud de retiro.
+-Usuario: Quiere agregar un nota o comentario en su solicitud de retiro.
 
 Precondiciones: Usuario ha hecho su solicitud de retiro y ahora quiere agregar una nota o comentario a este. 
 Postcondiciones (garantias de exito): La nota o comentario se agrega correctamente a la solicitud de retiro
 
 Escenario principal de exito (Flujo basico):
-1. Usuario abre aplicacion
-2. Usuario elige la opcion de ingresar solicitud de retiro
-3. Usuario crea su solicitud de retiro
 4. Usuario agrega una nota o comentario a su solicitud de retiro
-5. Usuario ingresa solicitud de retiro al sistema con la nota o comentario
-6. Si no hay un problema en el sistema o no hay algun problema de conexion entonces la solicitud de retiro es ingresada correctamente.
 
 Extensiones (Flujos Alternativos):
-6'. Si hay un problema en el sistema o hay algun problema de conexion
-- Entonces no se ingresa la solicitud de retiro junto con la nota o comentario y el sistema pide que lo vuelva a intentar 
 
 
 
