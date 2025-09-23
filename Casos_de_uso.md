@@ -15,7 +15,7 @@ Escenario principal de exito (Flujo basico):
 6. La solicitud de retiro es ingresada correctamente.
 
 Extensiones (Flujos Alternativos):
-5 '. Si hay un problema en el sistema o hay algun problema de conexion:
+5'. Si hay un problema en el sistema o hay algun problema de conexion:
 - Entonces no se ingresa la solicitud de retiro y el sistema pide que lo vuelva a intentar.
 
 
@@ -28,7 +28,8 @@ Precondiciones: Usuario ha hecho su solicitud de retiro y ahora quiere agregar u
 Postcondiciones (garantias de exito): La nota o comentario se agrega correctamente a la solicitud de retiro
 
 Escenario principal de exito (Flujo basico):
-4. Usuario agrega una nota o comentario a su solicitud de retiro
+1. Usuario agrega una nota o comentario a su solicitud de retiro
+2. Usuario envia su nota o comentario junto con la solicitud de retiro.
 
 Extensiones (Flujos Alternativos):
 
