@@ -15,14 +15,14 @@ Postcondiciones:
 
 
 Nombre: Agregar_nota(desc)
-Responsabilidades: 
+Responsabilidades: Esta operacion se encarga de agregar una nota con una descipcion a la solicitud
 Referencia: Ingresar solicitud de retiro
 Notas:
 Excepciones:
 Salida: Nota creada
 Precondiciones: El formulario debe haber sido completado
 Postcondiciones
--Sistema crea una nueva Nota
+-Sistema crea una nueva instancia de Nota
 -Sistema se compone de nota a solicitud
 -Se asigna desc a Agregar_nota.descripcion
 
@@ -36,7 +36,9 @@ Excepciones:si hay algun error de conexion, no se ingresa la solicitud y se pide
 Salida:--
 Precondiciones: El formulario debe haber sido completado
 Postcondiciones:
--Se asgina ID_solicitud a Solicitud
+-Se asgina ID_solicitud correspondiente a Solicitud
+-Se asigna fecha a Solicitud
 -La solicitud se asocia con API geolocalizador
+
 
 
