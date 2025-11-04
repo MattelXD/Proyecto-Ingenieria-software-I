@@ -8,7 +8,6 @@ Precondiciones: Sistema reconoce a usuario
 Postcondiciones:
 -Sistema crea nueva instancia de Solicitud
 -Solicitud se compone de Usuario
--z
 -Se asigna datos a la Solicitud.info
 
 
