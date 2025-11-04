@@ -1,5 +1,5 @@
 Nombre: LlenarFormularioSolicitudRetiro(info)
-Responsabilidades: Esta operacion llena el formulario de solicitud de retiro con los datos requeridos
+Responsabilidades: Esta operacion llena el formulario de solicitud de retiro con los datos requeridos e ingresarlo.
 Referencia: Ingresar solicitud de retiro
 Notas: Los datos deben corresponder al tipo de variable que pide el formulario 
 Excepciones: Datos no corresponden a tipo de variable, pide que lo corrija
@@ -9,6 +9,9 @@ Postcondiciones:
 -Sistema crea nueva instancia de Solicitud
 -Solicitud se compone de Usuario
 -Se asigna datos a la Solicitud.info
+-Se asgina ID_solicitud correspondiente a Solicitud
+-Se asigna fecha a Solicitud
+-La solicitud se asocia con API geolocalizador
 
 
 
@@ -25,19 +28,17 @@ Postcondiciones
 -Sistema se compone de nota a solicitud
 -Se asigna desc a Agregar_nota.descripcion
 
-
-
-Nombre: IngresarSolicitudRetiro(solicitud)
-Responsabilidades: Esta operacion se encarga de ingresar la solicitud de retiro para que esta sea validada
+Nombre: AccederFormulario
+Responsabilidades: Esta operacion se encarga de que el usuario acceda al formulario
 Referencia: Ingresar solicitud de retiro
 Notas:
-Excepciones:si hay algun error de conexion, no se ingresa la solicitud y se pide que se haga de nuevo
-Salida:--
-Precondiciones: El formulario debe haber sido completado
+Excepciones:Si hay un error de interntet no se accede y pide que lo haga de nuevo
+Salida: 
+Precondiciones: El sistema detecta de que eres un usuario valido
 Postcondiciones:
--Se asgina ID_solicitud correspondiente a Solicitud
--Se asigna fecha a Solicitud
--La solicitud se asocia con API geolocalizador
+-Se crea una nueva instancia de usuario
+
+
 
 
 
