@@ -1,8 +1,8 @@
-Requisitos funcionales
+eRequisitos funcionales
 -El sistema debe permitir que los usuarios puedan ingresar solicitudes de retiro
 -El sistema debe validar automáticamente la dirección de la solicitud mediante un servicio de geolocalización.
 –El sistema debe clasificar las solicitudes válidas en zonas geográficas predeterminadas.
-–El sistema debe permitir la comunicación entre Recolectores y Usuarios notificaciones push o SMS 
+–El sistema debe permitir la comunicación entre Recolectores y Usuarios mediante notificaciones push o SMS 
 –El sistema debe permitir la comunicación entre Recolectores y Coordinadores de Ruta mediante un chat interno (texto) dentro de la aplicación.
 -El sistema debe permitir que el Recolector marque una solicitud como retirada, rechazada o no encontrada.
 -El sistema debe permitir que los Recolectores generen un comprobante digital por cada retiro completado.
