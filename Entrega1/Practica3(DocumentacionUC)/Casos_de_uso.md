@@ -16,6 +16,9 @@ Escenario principal de exito (Flujo basico):
 6. Si los datos son correctos el sistema registra la solicitud
 7. El sistema muestra que la solictud se registro exitosamente
 Extensiones (Flujos Alternativos):
+2'. El usuario ya posee una solicitud activa en el dia:
+- Entonces el sistema muestra un mensaje indicando que no puede hacer otra solicitud por lo que queda de dia
+- El flujo termina y no deja continuar con el registro
 4'. El usuario no ha ingreasado sus coordenadas:
 - Entonces el sistema pide que se ingresen las coordenadas
 5'. Si las coordenadas no son validas:
