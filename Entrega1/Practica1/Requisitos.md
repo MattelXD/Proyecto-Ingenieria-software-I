@@ -8,10 +8,10 @@ Requisitos funcionales
 -El sistema debe permitir que el Recolector marque una solicitud como retirada, rechazada o no encontrada.
 -El sistema debe permitir que los Recolectores generen un comprobante digital por cada retiro completado.
 -El sistema debe permitir que el Coordinador de Ruta notifique a los Recolectores las rutas asignadas para su ejecución.
+-El sistema debe impedir que un usuario registre más de una solicitud activa en el día.
 
 Requisitos no funcionales
 -El sistema permite inicio de sesion mediante contraseña unica.
--El sistema no debe permitir más de una solicitud activa por usuario en un mismo día.
 -El sistema debe soportar al menos 500 usuarios concurrentes sin degradación perceptible del rendimiento.
 -El perfil Cliente debe acceder al sistema únicamente desde la aplicación móvil Android/iOS.
 -El perfil Recolector debe acceder al sistema únicamente desde la aplicación móvil Android/iOS.
